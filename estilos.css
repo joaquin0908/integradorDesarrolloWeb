@@ -1,0 +1,126 @@
+
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #f0f2ff;
+  }
+  
+  .encabezado {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    background-color: #D5C7F2;
+    padding: 10px;
+    border-bottom: 4px solid #000;
+  }
+  
+  .imagen-header {
+    height: 100px;
+    width: 150px;
+    object-fit: cover;
+    margin: 0 10px;
+  }
+  
+  .contenedor-principal {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 180px;
+    background-color: #D5C7F2;
+    padding: 20px 10px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  .sidebar img {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+  }
+  
+  .contenido {
+    flex: 1;
+    background-color: #e6f0fb;
+    padding: 10px;
+  }
+  
+  .titulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #D5C7F2;
+    padding: 15px;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .perfil {
+    font-size: 0.9em;
+    color: blue;
+    text-decoration: underline;
+  }
+  
+  .formulario {
+    background-color: #f3faff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  .formulario h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  .formulario label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .formulario input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .botones {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+  
+  .cancelar {
+    background-color: #e8c4f2;
+    border: none;
+    padding: 10px 20px;
+    color: #333;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .guardar {
+    background-color: #e8c4f2;
+    border: none;
+    padding: 10px 20px;
+    color: #333;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
